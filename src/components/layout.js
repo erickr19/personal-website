@@ -9,7 +9,7 @@ const Layout = ({ pageTitle, children }) => {
     // TODO: Add dynamic page titles
     
     return (
-        <div className="px-6 pt-6 pb-10 md:p-0 flex flex-col align-middle justify-center h-screen bg-gradient-to-t from-slate-900 to-cyan-900">
+        <div className="px-2 md:p-0 flex flex-col align-middle justify-center h-screen bg-gradient-to-t from-slate-900 to-cyan-900">
             <title>{pageTitle}</title>
             {/* TODO: add nav for desktop */}
             {/* card container */}
@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
                 </main>
             </div>
             {/* mobile navigation */}
-            <div className="flex justify-evenly h-2 p-3 mt-4 h-1 mb-8">
+            <div className="flex justify-evenly h-2 p-3 mt-4 h-1 mb-28 md:mb-0">
                 <Link to="/"><HomeIcon className="h-10 w-10 text-white hover:text-indigo-300 focus:text-indigo-300"/></Link>
                 <Link to="/more-info"><InformationCircleIcon className="h-10 w-10 text-white hover:text-indigo-300"/></Link>
             </div>
