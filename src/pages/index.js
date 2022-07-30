@@ -12,8 +12,10 @@ const IndexPage = () => {
           {/* container div */}
           <div className="flex flex-col">
             {/* profile pic and heading */}
-            <div className="flex flex-col justify-center self-center">
-              <StaticImage src="../images/upset.jpg" alt="homer looking upset in a blanket" className="border-4 border-white rounded-full w-48 h-48 self-center"/>
+            <div className="flex flex-col justify-center self-center rounded-full">
+              <div className="flex ring ring-white self-center mt-3 rounded-full bg-white">
+                <StaticImage src="../images/upset.jpg" alt="homer looking upset in a blanket" imgClassName="rounded-full" width={200} height={200} />
+              </div>
               <h1 className="self-center mt-4 text-2xl text-white">Hello, my name is Erick!</h1>
             </div>
             {/* body */}
