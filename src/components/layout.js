@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
                 </main>
             </div>
             {/* mobile navigation */}
-            <div className="flex justify-evenly h-2 p-3 mt-4 h-1 mb-36 md:mb-0">
+            <div className="flex justify-evenly h-2 p-3 mt-4 h-1 mb-44 md:mb-0">
                 <Link to="/"><HomeIcon className="h-10 w-10 text-white hover:text-indigo-300 focus:text-indigo-300"/></Link>
                 <Link to="/more-info"><InformationCircleIcon className="h-10 w-10 text-white hover:text-indigo-300"/></Link>
             </div>
