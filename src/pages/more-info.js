@@ -38,12 +38,6 @@ const MoreInfoPage = () => {
                     <p className="text-white">In the short term, my goal is to intern and grow my skills as a professional developer.</p>
                     <p className="text-white mt-5">Long term, I'd like to move to Washington state and explore the world.</p>
                 </div>
-
-
-                {/* bottom text */}
-                <div className="self-center mx-6 mt-28">
-                    <p className="text-white md:hidden">👻</p>
-                </div>
             </div>
         </Layout>
     )

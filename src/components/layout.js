@@ -20,7 +20,7 @@ const Layout = ({ pageTitle, children }) => {
                 </main>
             </div>
             {/* mobile navigation */}
-            <div className="flex grow items-center justify-evenly h-1 mb-10 md:mb-0">
+            <div className="flex grow items-center justify-evenly h-1 mt-10 mb-20 md:mb-0">
                 <Link to="/"><HomeIcon className="h-10 w-10 text-white hover:text-indigo-300 focus:text-indigo-300 self-center" /></Link>
                 <Link to="/more-info"><InformationCircleIcon className="h-10 w-10 text-white hover:text-indigo-300" /></Link>
             </div>
