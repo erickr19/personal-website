@@ -17,6 +17,7 @@
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@react-icons/all-files": "^4.1.0",
+    "bowser": "^2.11.0",
     "gatsby": "^4.19.2",
     "gatsby-plugin-image": "^2.19.0",
     "gatsby-plugin-sharp": "^4.19.0",
